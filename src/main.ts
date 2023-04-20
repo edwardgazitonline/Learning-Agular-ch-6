@@ -5,7 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [],
+  imports: [BrowserModule],
   template: `
   <p>
   app works!
